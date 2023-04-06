@@ -15,7 +15,7 @@ const movie1 = {
         "Poster": "N/A"
 }
 
-const App = () => {
+const App = () => {  
     const [ movies, setMovies] = useState([]);
     const [ searchTerm, setSearchTerm ] = useState('');
 
